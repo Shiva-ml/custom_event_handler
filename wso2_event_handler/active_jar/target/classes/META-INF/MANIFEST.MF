@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1743327957473
+Build-Jdk: 22.0.1
+Built-By: DELL
+Bundle-Description: Custom Event Handler Bundle
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.custom.event.handler
+Bundle-SymbolicName: org.wso2.custom.event.handler
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.custom.event.handler;uses:="org.apache.commons.
+ logging,org.wso2.carbon.identity.event,org.wso2.carbon.identity.event.e
+ vent,org.wso2.carbon.identity.event.handler";version="1.0.0"
+Import-Package: org.osgi.framework;version="[1.7.0,2.0.0)",org.osgi.serv
+ ice.component;version="[1.2.0,2.0.0)",org.apache.commons.logging;versio
+ n="[1.2,2.0)",org.wso2.carbon.identity.event;version="[5.0.0,7.8.9)",or
+ g.wso2.carbon.identity.event.bean;version="[5.0.0,7.8.9)",org.wso2.carb
+ on.identity.event.event;version="[5.0.0,7.8.9)",org.wso2.carbon.identit
+ y.event.handler;version="[5.0.0,7.8.9)",org.wso2.carbon.identity.event.
+ services;version="[5.0.0,7.8.9)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.wso2.custom.event.handler.xml
+Tool: Bnd-3.2.0.201605172007
